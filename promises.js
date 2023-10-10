@@ -40,7 +40,7 @@ console.log(promise);
 //мы обращаемся к переменной с promise
 // через метод .then() и в стрелочной функции выполняем работу
 // с обещанными данными
-promise.then(user => {
+promise.then((user) => {
   console.log(user);
 });
 
@@ -63,11 +63,11 @@ function iWantToKnowEverything(answer) {
 }
 
 iWantToKnowEverything(42)
-  .then(data => console.log(data))
-  .catch(error => console.log(error));
+  .then((data) => console.log(data))
+  .catch((error) => console.log(error));
 
 // iWantToKnowEverything("money")
 //   .then(data => console.log(data))
 //   .catch(error => console.log(error));rror (`Wrong answer! ${answer} isn incorrect!`));   }, 2000);
 //}
-
+//
